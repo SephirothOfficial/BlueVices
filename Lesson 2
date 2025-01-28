@@ -3,54 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Париж — город любви</title>
+    <title>Париж — дополнительные факты</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 20px;
         }
-        h1 {
-            text-align: center;
-            color: black;
-        }
         h2 {
             color: black;
+            border-bottom: 1px solid #000;
+            padding-bottom: 5px;
             margin-top: 20px;
+        }
+        p {
+            margin: 10px 0;
         }
         .highlight {
             font-weight: bold;
-            background-color: yellow;
+        }
+        .temperature {
+            color: #ff0000;
+            font-weight: bold;
         }
         .section {
             margin-bottom: 20px;
         }
-        .advice {
-            font-weight: bold;
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 5px 0;
         }
     </style>
 </head>
 <body>
-    <h1>Париж — город любви</h1>
-
     <div class="section">
         <h2>Почему это место особенное</h2>
-        <p>Париж известен как <span class="highlight">столица моды</span> и искусства. Здесь чувствуешь себя частью чего-то великого.</p>
-        <p><span class="advice">Совет:</span> Обязательно посетите Эйфелеву башню на закате!</p>
-        <p>Эйфелева башня — это <span class="highlight">символ Парижа</span>, который привлекает миллионы туристов каждый год.</p>
+        <p>Однажды Оскар Уайльд сказал: «Когда хороший американец умирает, он попадает в Париж.»</p>
+        <p><span class="highlight">Источник цитаты:</span> Пьеса «Веер леди Уиндермир».</p>
     </div>
 
     <div class="section">
-        <h2>Интересные факты</h2>
+        <h2>Природа и погода</h2>
+        <p>Средняя температура летом: <span class="temperature">25°C</span>. Уровень CO<sub>2</sub> в воздухе здесь значительно ниже, чем в крупных промышленных городах.</p>
+    </div>
+
+    <div class="section">
+        <h2>Код города</h2>
+        <p>Париж обозначается в международной авиации как <span class="highlight">CDG</span>.</p>
+    </div>
+
+    <div class="section">
+        <h2>План путешествия</h2>
         <ul>
-            <li>Париж называют "<span class="highlight">Городом света</span>".</li>
-            <li>Ежегодно его посещают более 30 миллионов туристов.</li>
-            <li>Лувр — крупнейший музей мира, в котором хранится Мона Лиза.</li>
+            <li><span class="highlight">День 1:</span></li>
+            <ul>
+                <li>Прогулка по Монмартру</li>
+                <li>Ужин в кафе</li>
+            </ul>
+            <li><span class="highlight">День 2:</span></li>
+            <ul>
+                <li>Посещение Лувра</li>
+                <li>Экскурсия на Эйфелеву башню</li>
+            </ul>
         </ul>
-    </div>
-
-    <div class="section">
-        <h2>Известные цитаты</h2>
     </div>
 </body>
 </html>
