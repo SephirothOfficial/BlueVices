@@ -7,25 +7,26 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
             line-height: 1.6;
-        }
-        h1, h2 {
-            color: #333;
+            margin: 20px;
         }
         h1 {
             text-align: center;
+            color: black;
+        }
+        h2 {
+            color: black;
+            margin-top: 20px;
         }
         .highlight {
-            color: #ffcc00;
             font-weight: bold;
+            background-color: yellow;
         }
         .section {
             margin-bottom: 20px;
         }
-        .quote {
-            font-style: italic;
-            color: #666;
+        .advice {
+            font-weight: bold;
         }
     </style>
 </head>
@@ -35,7 +36,7 @@
     <div class="section">
         <h2>Почему это место особенное</h2>
         <p>Париж известен как <span class="highlight">столица моды</span> и искусства. Здесь чувствуешь себя частью чего-то великого.</p>
-        <p><strong>Совет:</strong> Обязательно посетите Эйфелеву башню на закате!</p>
+        <p><span class="advice">Совет:</span> Обязательно посетите Эйфелеву башню на закате!</p>
         <p>Эйфелева башня — это <span class="highlight">символ Парижа</span>, который привлекает миллионы туристов каждый год.</p>
     </div>
 
@@ -50,7 +51,6 @@
 
     <div class="section">
         <h2>Известные цитаты</h2>
-        <p class="quote">"Париж — это праздник, который всегда с тобой." — Эрнест Хемингуэй</p>
     </div>
 </body>
 </html>
